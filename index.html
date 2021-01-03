@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Cheat Sheet </title>
-</head>
+    <title> HTML Cheat Sheet</title>
+</head> 
 <body>
 
-    <!--Heading-->
-    <!--The headings runs from h1 to h6-->
+    <!--Headings-->
+
+    <!--H1 has the biggest heading-->
+
     <h1>Heading One</h1>
     <h2>Heading Two</h2>
     <h3>Heading Three</h3>
@@ -16,134 +18,143 @@
     <h5>Heading Five</h5>
     <h6>Heading Six</h6>
 
-    <!--Paragraph is represented by  small p-->
-    <!--Adding an in line element and this we will use strong shich bold the specific range of element-->
-    <!--Adding  an in line element which is em which emphasizes-->
+    <!--Paragraph-->
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Rem est sunt, illo quidem, maiores reiciendis in quasi reprehenderit voluptatum possimus iste, 
+        atque <strong>unde pariatur ipsum</strong>. 
+        Amet et eligendi reiciendis perferendis aliquid doloremque nam voluptatum quasi suscipit. 
+        Totam, <em>unde quos incidunt corporis </em>culpa aperiam, dolores exercitationem possimus delectus illo tenetur atque.
+    </p> 
     
-    <p>Lorem ipsum, dolor sit amet consectetur <em>adipisicing elit. </em>Dignissimos, <strong> sit </strong>  corporis ad libero, cum laudantium reiciendis eveniet magnam nam laborum impedit porro recusandae! At recusandae in adipisci aperiam amet magnam cumque eum praesentium, aliquam deleniti ipsam explicabo distinctio doloremque omnis? Quia, modi libero, sit eos quasi possimus molestias provident, soluta natus facilis cum vitae quos earum! Iste delectus voluptatum dignissimos repellat animi deleniti atque eius itaque sequi. Ipsam unde, ea quaerat quidem, officiis minus dignissimos repellendus consectetur voluptate odio iste optio? Amet eum nobis praesentium dolore voluptates, earum quod, unde assumenda distinctio ipsa possimus numquam ipsum quisquam reprehenderit. Laborum!
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Rem est sunt, illo quidem,<a href="https://google.com" target="_blank"> maiores reiciendis in quasi</a> reprehenderit voluptatum possimus iste, 
+        atque unde pariatur ipsum. 
+        Amet et eligendi reiciendis perferendis aliquid doloremque nam voluptatum quasi suscipit. 
+        Totam, unde quos incidunt corporis culpa aperiam, dolores exercitationem possimus delectus illo tenetur atque.
     </p>
-     
-    <!--Adding a link to the text-->
-    <p>Lorem ipsum dolor sit amet, <a href="https://google.com" target="_blank">consectetur adipisicing</a> elit. Dolorum expedita mollitia, fugiat provident excepturi eligendi repudiandae! Atque est sed, minima ratione animi ipsum, fuga aliquid ullam magni dicta et molestias ea dolorum rem ducimus tempora! Ut eaque temporibus repudiandae atque omnis cum sapiente a? Ea ullam odit similique officiis nemo nisi vero, qui ut! Ducimus repudiandae, voluptatum sed maiores tenetur, magnam ipsam officiis distinctio deserunt voluptate deleniti non unde neque vitae et aspernatur accusamus impedit placeat? Aliquam voluptates odio, nihil fuga earum omnis molestias fugit cupiditate. Officiis corporis sint amet voluptatibus impedit? Minus perferendis ullam repellendus. Doloremque ipsum iste dolorum?</p>
+        
 
-    <!--List-->
-    <!--There are two types of list in html-->
+    <!-- list -->
 
-    <!--Unordered list-->
-
+    <!--unordered list-->
     <ul>
         <li>List Item 1</li>
         <li>List Item 2</li>
         <li>List Item 3</li>
         <li>List Item 4</li>
     </ul>
-    
-    <!--Ordered list-->
+
+    <!--ordered list-->
     <ol>
         <li>List Item 1</li>
         <li>List Item 2</li>
         <li>List Item 3</li>
         <li>List Item 4</li>
     </ol>
+    
 
-    <!--Table-->
-
+    <!--table-->
     <table>
-
-        <!--table head-->
         <thead>
-
-            <!--table row-->
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Age</th>
-            </tr>
-
+            <tr>Name</tr>
+            <tr>Email</tr>
+            <tr>Age</tr>
         </thead>
-
-        <!--table body-->
+        
         <tbody>
             <tr>
                 <td>Emmanuel Yeboah</td>
-                <td>yemmanuel308@gmail.com</td>
-                <td>189</td>
+                <td>emma@something.com</td>
+                <td>120</td>
             </tr>
-            
+
             <tr>
-                <td>Kofi Owusu</td>
-                <td>kofiowusu@gmail.com</td>
-                 <td>2000</td>
+                <td>Kofi Agyemang</td>
+                <td>kof@something.com</td>
+                <td>90</td>
             </tr>
-            
-             <tr>
-                <td>Koranteng Yeboah</td>
-                <td>ky8@gmail.com</td>
-                <td>1020</td>
-             </tr>
-            
+
+            <tr>
+                <td>Owusu Sekyere</td>
+                <td>owus@something.com</td>
+                <td>98</td>
+            </tr>
+
         </tbody>
-
-
     </table>
-
     <br>
     <hr>
     <br>
-    
+
     <!--forms-->
-    <form action="process.php" method="POST">
 
+    <form action="process.php" method="GET">
+
+            <!--First Name-->
         <div>
-           <label >First Name</label>
-           <input type="text" name="first-name">
+            <label >First Name</label>
+            <input type="text" name="first-name" placeholder="Enter your first name">
         </div>
 
         <br>
-        
+           
+            <!--Last Name-->
         <div>
-           <label > Last Name</label>
-           <input type="text" name="second-name">
+            <label >Last Name</label>
+            <input type="text" name="last-name"> 
         </div>
 
         <br>
 
+                <!--Email-->
         <div>
-            <label > Email</label>
-            <input type="email" name="email">
-         </div>
-         <br>
+            <label >Email</label>
+            <input type="email" name="email"> 
+        </div>
 
-         <div>
-            <label > Message</label>
-            <textarea name="message" ></textarea>
-         </div>
+        <br>
 
-         <div>
-            <label > Gender</label>
+                <!--Message-->
+        <div>
+            <label >Message</label>
+            <textarea name="message" ></textarea> 
+        </div>
+
+                <!--Gender-->
+        <div>
+            <label >Gender</label>
             <select name="gender" >
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="other">Other</option>
             </select>
-         </div>
+        </div>
+        
+                    <!--Age-->
+        <div>
+            <label >Age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+
+                   <!--Birthday-->
+        <div>
+            <label >Birthday</label>
+            <input type="date" name="birthday" >
+        </div>
+
+                    <!--Submit-->
+        
+            <input type="submit" name="submit" value="submit">
+                    
     </form>
-  <br>
-    <!--Adding an image to an html-->
-    <img src="images/simple.jpg.jpg" alt="a simple laptop image" width="650px">
+        <br>
+            <!--image-->
+    <a href="images/GOG.jpg " >
+    <img  src="images/GOG.jpg" alt="God is the greatest"  ></a>
 
-
-     <!--Quotations-->
-     <blockquote cite="https://traverymedia.com">
-        Lorem ipsum dolor sit amet,
-         consectetur adipisicing elit. 
-        Molestiae maxime laudantium corrupti cum beatae cumque, perspiciatis at, sed id praesentium maiores numquam, ratione quae ipsum veniam natus optio. Ad, dolorum.
-
-     </blockquote>
-
-     <p>The <abbr title="World Wide Web"> W W W  </abbr> is awesome</p>
-
-     <p> <cite> HTML crash course by Travs Media</cite></p>
-
+    <p><cite>HTML crash course</cite> by Emmanuel Yeboah</p>
 </body>
 </html>
